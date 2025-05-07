@@ -1,0 +1,157 @@
+body {
+  font-family: 'Century Gothic', sans-serif;
+  background-color: #FFF5EE;
+  text-align: center;
+  max-width: 1470px;
+  margin: 10px auto;
+}
+
+a {
+  text-decoration: none;
+  color: #0078D4;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 50px;
+  width: 600px;
+  height: 700px;
+}
+
+table {
+  font-family: 'Century Gothic', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  height: 350px;
+  border: 2px solid black;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #FFE4C4;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  margin: 0;
+  background-color: #ff7700;
+  color: #fff;
+  padding: 10px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.icon {
+  text-align: center;
+  margin: 20px;
+}
+
+.icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.step-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 60px;
+  max-width: 1000px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.step img {
+  margin-bottom: 10px;
+}
+
+.step-text {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #ff7700;
+  margin-top: 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #ff7700;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+/* Добавление эффекта тени для элементов */
+.step {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.step:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Добавление анимации для ссылок */
+a:hover {
+  transform: translateY(-2px);
+}
+
+/* Стилизация кнопок */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff7700;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff8800;
+}
+
+/* Стилизация заголовков */
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Создание тени для футера */
+.footer {
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+}

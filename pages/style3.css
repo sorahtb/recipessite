@@ -1,0 +1,113 @@
+body {
+    font-family: 'Century Gothic', sans-serif;
+    background-color: #FFE4E1;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+h1 {
+   
+    margin: 0;
+}
+
+.ingredients, .instructions {
+    text-align: left;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #FF7700;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.step {
+    border: 1px solid #FFA500;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 20px;
+    color: #FF7700;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.tip-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.tip {
+    border: 2px solid #FFA500;
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+}
+
+h3 {
+    font-size: 20px;
+    color: #FF7700;
+}
+
+.tip h3 {
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tip p {
+    font-size: 16px;
+}
+body {
+            display: center;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+footer {
+  background-color: #333; 
+  color: #fff; 
+  padding: 20px;
+  text-align: center;
+
+}
+
+.contact-header h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin: 5px 0;
+}
